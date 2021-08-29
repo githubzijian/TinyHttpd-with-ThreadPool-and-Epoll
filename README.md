@@ -124,7 +124,7 @@ Requests: 132960 susceed, 0 failed.
 
   #### perf结果：
 
-  ![perf结果](/perf结果.png)
+  ![](/perf结果.png)
 
 
 
