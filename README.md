@@ -1,10 +1,6 @@
 
 
-## 项目简介：
-
-## Tinyhttpd with threadpoll & epoll
-
-------
+## 项目简介：   Tinyhttpd with threadpoll & epoll
 
 ​	本项目是基于Tinyhttpd扩展实现的web服务器， 基于epoll 事件驱动IO， 采用高效的Reactor 模型 与 线程池 的方式，解决原版动态创建存在效率较低、并发低的问题， 较于原版接近十五倍性能。
 
@@ -17,8 +13,6 @@
 
 
 ## 项目构建方法：
-
-------
 
 
 
@@ -42,8 +36,6 @@ make
 
 ## 技术要点：
 
-------
-
 - 采用 Reactor 并发模式
 
 - Epoll I/O多路复用技术
@@ -57,8 +49,6 @@ make
   
 
 ## 测试方法 和 结果：
-
-------
 
 
 
@@ -98,8 +88,6 @@ Requests: 132960 susceed, 0 failed.
 
 ## 项目不足与改进点：
 
-------
-
 #### 		不足：
 
 - 代码启动后，压测的同时，服务器使用 top 观察系统的各项占用情况，发现 软中断 si 较高，用户 us 占用较少。
@@ -125,8 +113,6 @@ Requests: 132960 susceed, 0 failed.
 
 
 ## 参考文献：
-
-------
 
 [Tinyhttpd](https://github.com/cbsheng/tinyhttpd)
 
