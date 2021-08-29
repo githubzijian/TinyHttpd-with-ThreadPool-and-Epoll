@@ -1,6 +1,4 @@
----
-typora-root-url: images
----
+
 
 ## 项目简介：
 
@@ -16,7 +14,7 @@ typora-root-url: images
 
 ------
 
-![Reactor模型](/Reactor模型.png)
+![](images/Reactor模型.png)
 
 
 
@@ -124,7 +122,7 @@ Requests: 132960 susceed, 0 failed.
 
   #### perf结果：
 
-  ![](/perf结果.png)
+  ![](images/perf结果.png)
 
 
 
