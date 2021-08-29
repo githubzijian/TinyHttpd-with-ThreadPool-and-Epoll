@@ -1,18 +1,12 @@
-
-
 ## 项目简介：   Tinyhttpd with threadpoll & epoll
 
 ​	本项目是基于Tinyhttpd扩展实现的web服务器， 基于epoll 事件驱动IO， 采用高效的Reactor 模型 与 线程池 的方式，解决原版动态创建存在效率较低、并发低的问题， 较于原版接近十五倍性能。
 
 
 
-
-
 ## 程序框架：
 
 ![](images/Reactor模型.png)
-
-
 
 
 
@@ -35,8 +29,6 @@ make
 #例如：
 #./MyHttpd 10.0.0.3 5000
 ```
-
-
 
 
 
@@ -91,8 +83,6 @@ Benchmarking: GET http://10.0.0.3:5000/
 Speed=398880 pages/min, 1987752 bytes/sec.
 Requests: 132960 susceed, 0 failed.
 ```
-
-
 
 
 
