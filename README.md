@@ -1,3 +1,7 @@
+---
+typora-root-url: images
+---
+
 ## 项目简介：
 
 ## Tinyhttpd with threadpoll & epoll
@@ -12,7 +16,7 @@
 
 ------
 
-![Reactor模型](C:\Users\pc\Desktop\MyHttpd\TinyHttpd-with-ThreadPool-and-Epoll\images\Reactor模型.png)
+![Reactor模型](/Reactor模型.png)
 
 
 
@@ -120,7 +124,7 @@ Requests: 132960 susceed, 0 failed.
 
   #### perf结果：
 
-  ![perf结果](C:\Users\pc\Desktop\MyHttpd\TinyHttpd-with-ThreadPool-and-Epoll\images\perf结果.png)
+  ![perf结果](/perf结果.png)
 
 
 
