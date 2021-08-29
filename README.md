@@ -6,9 +6,13 @@
 
 
 
+
+
 ## 程序框架：
 
 ![](images/Reactor模型.png)
+
+
 
 
 
@@ -34,6 +38,8 @@ make
 
 
 
+
+
 ## 技术要点：
 
 - 采用 Reactor 并发模式
@@ -47,6 +53,8 @@ make
 - 进程通信
 
   
+
+
 
 ## 测试方法 和 结果：
 
@@ -83,6 +91,8 @@ Benchmarking: GET http://10.0.0.3:5000/
 Speed=398880 pages/min, 1987752 bytes/sec.
 Requests: 132960 susceed, 0 failed.
 ```
+
+
 
 
 
